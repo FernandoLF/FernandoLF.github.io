@@ -1,0 +1,3 @@
+[submodule "fe_qrCode"]
+	path = fe_qrCode
+	url = https://github.com/FernandoLF/fe_qrCode.git

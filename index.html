@@ -2,15 +2,64 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio web de Javier Fernando López, Ingeniero en Ciencias y Sistemas [Desarrollo de Aplicaciones y Sitios Web]">
+    <meta name="keywords" content="portafolio, desarrollador web, [Desarrollo de Aplicaciones y Sitios Web]">
+    <meta name="author" content="Javier Fernando López Flores">
+    <meta name="robots" content="index, follow">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="css/indexPortafolio.css">
     <title>Mi Portafolio</title>
 </head>
 <body>
-    <h1>Bienvenido a mi portafolio</h1>
-    <h2>Proyectos</h2>
-    <ul>
-        <li><a href="fe_qrCode/index.html" target="_blank">Código QR</a></li>
-        <li>pronto más proyectos...</li>
-    </ul>
+    <header class="header">
+        <a href="#" class="logo">Fernando</a>
+
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Servicios</a>
+            <a href="#">Portafolio</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Hola, Soy Fernando López</h1>
+            <h3>Ingeniero en Ciencias y Sistemas</h3>
+            <p>
+                Soy un ingeniero de desarrollo especializado en frontend y backend, 
+                con habilidades en automatización de despliegues usando GitHub Actions 
+                y en la optimización de código HTML con Emmet. Domino el uso de tecnologías 
+                web modernas para crear interfaces de usuario eficientes, y también tengo 
+                experiencia en configuración de estilos CSS avanzados y SEO. En backend, 
+                manejo la integración de Blazor en .NET Core MVC para mejorar la productividad 
+                y rendimiento de aplicaciones web, además de un buen conocimiento en la administración 
+                de hardware, incluyendo tipos y capacidades de discos duros. Mi enfoque siempre está 
+                en brindar soluciones completas y optimizadas tanto en el desarrollo de interfaces 
+                como en la lógica del servidor.
+            </p>
+            <div class="btn-box">
+                <a href="#">Contrátame</a>
+                <a href="#">Hablemos</a>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="#"><box-icon type='logo' name='github'></box-icon></a>
+            <a href="#"><box-icon type='logo' name='linkedin-square'></box-icon></a>
+            <a href="#"><box-icon type='logo' name='tiktok'></box-icon></a>
+        </div>
+    </section>
+
+    <section>
+        <h2>Proyectos</h2>
+        <ul>
+            <li><a href="fe_qrCode/index.html" target="_blank">Código QR</a></li>
+            <li>pronto más proyectos...</li>
+        </ul>
+    </section>
 </body>
 </html>
 
